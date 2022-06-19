@@ -1,10 +1,66 @@
 .fifth-section{
-    text-align: center; 
     h3{
         font-weight: 500;
         font-size: 2.875rem;
         line-height: 3.5rem;
         text-transform: capitalize;
         margin-bottom: 5.5rem;
+        text-align: center;
+    }
+    .services-block{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: auto;
+        grid-gap: 1.5rem;
+        .services-block-card{
+            padding-left: 2.375rem;
+            padding-right: 2rem;
+            border: 1px solid rgba(33, 53, 70, 0.4);
+            max-width: 21.25rem;
+            height: 23.75rem;
+            .services-block-card-top{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+                .services-block-card-top-img{
+                    width: 10rem;
+                    height: 10rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                }
+                .services-block-card-top-number{
+                    font-weight: 400;
+                    font-size: 2rem;
+                    line-height: 1.625rem;
+                    color: #E5E5E5;
+                    padding-top: 3.3125rem;
+                }
+            }
+            h4{
+                font-weight: 400;
+                font-size: 2rem;
+                line-height: 1.875rem;
+                height: 3.75rem;
+                color: rgba(0, 0, 0, 0.8);
+                margin-bottom: 2.25rem;
+            }
+            .button{
+                font-family: "Roboto";
+                font-weight: 500;
+                font-size: 1.125rem;
+                letter-spacing: 0.1em;
+                line-height: 1.725rem;
+                padding: 0.85rem 3.8rem;
+                text-transform: capitalize;
+                background-color: #F5F5F5;
+                border: 2px solid #E9E743;
+                border-radius: 10px;
+                margin-bottom: 4.5rem;
+                display: inline-block;
+            }
+        }
+
     }
 }
