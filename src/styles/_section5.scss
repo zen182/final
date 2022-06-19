@@ -12,6 +12,7 @@
         grid-template-columns: repeat(4, auto);
         grid-template-rows: auto;
         grid-gap: 1.5rem;
+        margin: 0 auto;
         .services-block-card{
             padding-left: 2.375rem;
             padding-right: 2rem;
@@ -62,5 +63,29 @@
             }
         }
 
+    }
+}
+
+@media (max-width:1470px){
+    .fifth-section{
+        .services-block{
+            grid-template-columns: repeat(3, auto);
+        }
+    }
+}
+
+@media (max-width:699px){
+    .fifth-section{
+        .services-block{
+            grid-template-columns: repeat(2, auto);
+        }
+    }
+}
+
+@media (max-width:449px){
+    .fifth-section{
+        .services-block{
+            grid-template-columns: repeat(1, auto);
+        }
     }
 }
