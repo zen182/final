@@ -4,10 +4,88 @@ doctype html
 html(lang='en')
     include pug/_head
     body
-        .container
-            h1 Hello from Webpack
-            h2.container__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ipsam!
-            +image('angular')
-            +image('webpack')
-            .block
-            .user
+        header 
+            .container 
+                .header-top 
+                    .logo 
+                        img(src="./images/logo.png", alt="Logo")
+                    .nav 
+                        a(href="http://") Home
+                        a(href="http://") Services
+                        a(href="http://") Cart
+                        a(href="http://").login Login
+                    .burger-menu
+                        img(src="./images/menu.png", alt="Menu")
+            .header-bottom 
+                .container
+                    .wrap
+                        a(href="http://").button Select A car
+                        .call 
+                            img(src="./images/whatsapp.png", alt="Whatsapp")
+                            img(src="./images/phone.png", alt="Pone")
+        section.first-section
+            .container
+                h1 Car repair at your door step
+                a(href="http://").button Select a car
+                .img-block
+                    img(src="./images/asset1.png", alt="Service")
+        section.second-section
+            .container 
+                h3 Our partners
+                .partners-block 
+                    .block-img
+                        img(src="./images/image1.png", alt="Bro4U")
+                    .block-img
+                        img(src="./images/image2.png", alt="Uber")
+                    .block-img
+                        img(src="./images/image3.png", alt="Ola")
+                    .block-img
+                        img(src="./images/image4.png", alt="Pitstop")
+                    .block-img
+                        img(src="./images/image5.png", alt="Allianz")
+                    .block-img
+                        img(src="./images/image6.png", alt="Urban Company")
+        section.third-section 
+            .container 
+                .wrap-about
+                    .wind
+                        img(src="./images/wind-left.png", alt="Left Wind")
+                    .about-us 
+                        h3 About Us
+                        p At meter per second, we take pride in our values
+                        p - service,integrity and excellece.
+                    .wind-break 
+                        img(src="./images/wind-left-single1.png", alt="Left")
+                        img(src="./images/wind-right-single1.png", alt="Right")
+                    .wind
+                        img(src="./images/wind-right.png", alt="Right Wind")
+                .wrap-list
+                    .wrap-list-item
+                        .number 1.
+                        h4 Who we are?
+                        p Established in 2016, with a Vision to Provide Customers Transparent, Convenient and Reliable Car Service and Repair right at Customer Doorstep in Hyderabad
+                    .wrap-list-item
+                        .number 2.
+                        h4 What is the problem?
+                        p Car owners often lack visibility regarding the quality of Mechanics, usage of Spare parts and Transparency in price.
+                    .wrap-list-item
+                        .number 3.
+                        h4 How do we help?
+                        p Now, Metre Per Second is a Premier Doorstep Car Care Company providing Car Service with Professional Technicians right at your location in Hyderabad.
+        section.fourth-section 
+            .container
+                h3 Company’s overview car services
+                .wrap-overview 
+                    .wrap-overview-item Car Repairs
+                    .wrap-overview-item Car Inspection
+                    .wrap-overview-item Car Denting &amp; Painting
+                    .wrap-overview-item Car Major Repairs
+                    .wrap-overview-item Car Custom Repairs
+                    .wrap-overview-item Car AC Service
+        section.fifth-section 
+            .container 
+                h3 Our services
+
+                    
+
+
