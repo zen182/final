@@ -1,13 +1,8 @@
 .second-section{
     text-align: center;
     background-color: #F4F4F4;
-    margin-bottom: 4rem;
     padding: 4.5rem 0 7.8rem 0;
     h3{
-        font-weight: 500;
-        font-size: 2.875rem;
-        line-height: 3.5rem;
-        text-transform: capitalize;
         margin-bottom: 4.75rem;
     }
     .partners-block{
@@ -51,6 +46,14 @@
     .second-section{
         .partners-block{
             grid-template-columns: repeat(2, auto);
+        }
+    }
+}
+
+@media (max-width:319px){
+    .second-section{
+        .partners-block{
+            grid-template-columns: repeat(1, auto);
         }
     }
 }

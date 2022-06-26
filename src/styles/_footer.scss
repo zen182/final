@@ -1,0 +1,81 @@
+footer{
+    background-color: #1F1F1F;
+    padding: 5.75rem 0.625rem 6.25rem 0;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    .footer-left{
+        width: 50%;
+        .contact{
+            margin-bottom: 2.5rem;
+            a{
+                font-weight: 700;
+                font-size: 2.875rem;
+                line-height: 3.5rem;
+                text-align: center;
+                text-decoration-line: underline;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }
+        h4{
+            font-weight: 400;
+            font-size: 2.875rem;
+            line-height: 3.5rem;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 3rem;
+        }
+        p{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+    }
+    .footer-right{
+        // width: 50%;
+        // align-self: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 2.125rem;
+        line-height: 2.5rem;
+        color: #FFFFFF;
+        .phone{
+            margin-bottom: 0.5rem;
+        }
+        .email{
+            margin-bottom: 2rem;
+        }
+        .social-block{
+            display: flex;
+            .social-item{
+                a{
+                    display: inline-block;
+                    height: 4.6875rem;
+                    width: 4.6875rem;
+                    border-radius: 50%;
+                    background-color: #C4C4C4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:767px){
+    .footer-block{
+        flex-direction: column;
+        gap: 2rem;
+        .footer-left{
+            width: 100%;
+        }
+    }
+}

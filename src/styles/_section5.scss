@@ -1,11 +1,7 @@
 .fifth-section{
+    padding: 10.625rem 0 8.75rem 0;
     h3{
-        font-weight: 500;
-        font-size: 2.875rem;
-        line-height: 3.5rem;
-        text-transform: capitalize;
         margin-bottom: 5.5rem;
-        text-align: center;
     }
     .services-block{
         display: grid;
@@ -17,7 +13,7 @@
             padding-left: 2.375rem;
             padding-right: 2rem;
             border: 1px solid rgba(33, 53, 70, 0.4);
-            max-width: 21.25rem;
+            // max-width: 21.25rem;
             height: 23.75rem;
             .services-block-card-top{
                 display: flex;
@@ -58,7 +54,6 @@
                 background-color: #F5F5F5;
                 border: 2px solid #E9E743;
                 border-radius: 10px;
-                margin-bottom: 4.5rem;
                 display: inline-block;
             }
         }
